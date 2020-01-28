@@ -30,4 +30,4 @@ app.use('/api/posts', require('./routes/api/posts'));
 
 const PORT = process.env.PORT || 3001;
 
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+app.listen(PORT, () => console.log(`${gradient.summer(`Server started on port ${PORT}`)}`);
