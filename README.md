@@ -1,7 +1,7 @@
 # Cue2
 
 A social media application using the MERN full-stack
-[Heroku](https://whispering-anchorage-94320.herokuapp.com/)
+[Heroku](https://pacific-wildwood-37189.herokuapp.com/)
 
 ## Technology used
 
