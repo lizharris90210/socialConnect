@@ -1,7 +1,8 @@
 # Cue2
 
 A social media application using the MERN full-stack
-[Heroku](https://cue2.herokuapp.com/)
+
+[Heroku Deployed Link](https://cue2.herokuapp.com/)
 
 ## Technology used
 
@@ -30,15 +31,15 @@ A social media application using the MERN full-stack
 
 2. Clone the repository and `npm install` in terminal on server-side and client side.
 
-3. Input your secrets in a .env file. it should look like this:
+3. Input your secrets in a .env file. It should look like this:
 
-    `mongodb+srv://userName:password@DatabaseName-uhmdu.mongodb.net/test?retryWrites=true&w=majority
+    `mongodb+srv://userName:password@DatabaseName-uhmdu.mongodb.net/test?retryWrites=true&w=majority`
 
-    jwtSecret = secretToken
+    `jwtSecret = secretToken`
 
-    githubClientId = yourClientID
+    `githubClientId = yourClientID`
 
-    githubSecret = githubSecret`
+    `githubSecret = githubSecret`
 
 4. Once node modules are installed, `npm run dev` in terminal and the app should run in localhost:3000.
 
@@ -49,6 +50,6 @@ A social media application using the MERN full-stack
 - [Jackson Pearce](https://github.com/Jackson-Pearce)
 - [Hilary Lamb](https://github.com/hilarykathleen)
 
-This app is a project built for UNC Web Developer Bootcamp. Thanks to the teachers, TAs, tutors, and stackoverflow for the help and support.
+This app is a project built for UNC Web Developer Bootcamp. Thanks to the teachers, TAs, tutors, and stackoverflow for the help and support. Special thanks to cheese and crackers.
 
 ## Useage
