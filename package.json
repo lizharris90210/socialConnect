@@ -1,8 +1,12 @@
 {
-  "name": "socialconnect",
+  "name": "socialonnect",
   "version": "1.0.0",
   "description": "social media app",
   "main": "server.js",
+  "engines": {
+    "npm": "6.12.0",
+    "node": "12.13.0"
+  },
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server",
@@ -41,7 +45,8 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "socialconnect": "^1.4.0"
   },
   "devDependencies": {
     "concurrently": "^5.0.2",

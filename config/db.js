@@ -2,7 +2,6 @@ const gradient = require("gradient-string")
 const mongoose = require("mongoose");
 // const config = require("./default.json");
 const db = process.env.mongoURI;
-
 const connectDB = async () => {
   try {
     await mongoose.connect(db, {
