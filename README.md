@@ -8,7 +8,7 @@ A social media application using the MERN full-stack
 - [Axios](https://github.com/axios/axios)
 - [Bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - [Express](https://expressjs.com/en/5x/api.html#express)
-- [Font Awe(some](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use)
+- [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use)
 - [JSON Web Token](https://jwt.io/introduction/)
 - [MongoDB](https://cloud.mongodb.com/)
 - [Node.js](https://nodejs.org/en/docs/)
@@ -25,13 +25,20 @@ A social media application using the MERN full-stack
    - Click the 'Connect' button.
    - Click 'Connect your Application'.
    - Copy the 'Connection String'.
-     `mongodb+srv://<userName>:<password>@DatabaseName-uhmdu.mongodb.net/test?retryWrites=true&w=majority`
+
+    `mongodb+srv://<userName>:<password>@DatabaseName-uhmdu.mongodb.net/test?retryWrites=true&w=majority`
 
 2. Clone the repository and `npm install` in terminal on server-side and client side.
 
 3. Input your secrets in a .env file. it should look like this:
 
-`mongodb+srv://userName:password@DatabaseName-uhmdu.mongodb.net/test?retryWrites=true&w=majority jwtSecret = secretToken githubClientId = yourClientID githubSecret = githubSecret`
+    `mongodb+srv://userName:password@DatabaseName-uhmdu.mongodb.net/test?retryWrites=true&w=majority
+
+    jwtSecret = secretToken
+
+    githubClientId = yourClientID
+
+    githubSecret = githubSecret`
 
 4. Once node modules are installed, `npm run dev` in terminal and the app should run in localhost:3000.
 
