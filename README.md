@@ -19,11 +19,11 @@ A social media application using the MERN full-stack
 ## Prerequisites and Getting Started
 
 1. You will need to set up a an account with MongoDB Atlas.
-    *Set up a blank database.
-    *Navigate to Clusters.
-    *Click the 'Connect' button.
-    *Click 'Connect your Application'.
-    *Copy the 'Connection String'.
+    * Set up a blank database.
+    * Navigate to Clusters.
+    * Click the 'Connect' button.
+    * Click 'Connect your Application'.
+    * Copy the 'Connection String'.
     `mongodb+srv://<userName>:<password>@DatabaseName-uhmdu.mongodb.net/test?retryWrites=true&w=majority`
 
 2. Clone the repository and `npm install` in terminal on server-side and client side.
