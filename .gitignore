@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.DS_Store
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -106,3 +107,6 @@ dist
 
 # SASS FILES
 .css.map
+
+# Misc
+.DS_Store
