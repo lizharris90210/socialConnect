@@ -1,15 +1,15 @@
 /* Navbar */
 
 .navbar {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.7rem 2rem;
   position: fixed;
-  /* z-index: 1; */
   top: 0;
   opacity: 0.9;
-}
+} */
 
 .navbar ul {
   display: flex;
@@ -18,90 +18,15 @@
 .navbar a {
   color: black;
   padding: 0.45rem;
-  margin: 0 0.25rem;
 }
 
 .navbar a:hover {
-  color: var(--primary-color);
+  color: #17a2b8;
+  text-decoration: none;
 }
 
 .navbar .welcome span {
   margin-right: 0.6rem;
-}
-
-.menu-btn {
-  position: absolute;
-  /* z-index: 20; */
-  right: 1rem;
-  top: 1rem;
-  height: 20px;
-  width: 28px;
-  cursor: pointer;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.menu-btn__burger {
-  position: absolute;
-  right: 0;
-  top: 0.5rem;
-  width: 28px;
-  height: 3px;
-  background: #272727;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.menu-btn__burger::before {
-  content: '';
-  position: absolute;
-  top: -8px;
-  width: 28px;
-  height: 3px;
-  background-color: #272727;;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.menu-btn__burger::after {
-  content: '';
-  position: absolute;
-  top: 8px;
-  width: 28px;
-  height: 3px;
-  background-color: #272727;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.menu-btn__burger.open {
-  -webkit-transform: rotate(720deg);
-          transform: rotate(720deg);
-  background: transparent;
-}
-
-.menu-btn__burger.open::before {
-  -webkit-transform: rotate(45deg) translate(5px, 8px);
-          transform: rotate(45deg) translate(5px, 8px);
-}
-
-.menu-btn__burger.open::after {
-  -webkit-transform: rotate(-45deg) translate(4px, -6px);
-          transform: rotate(-45deg) translate(4px, -6px);
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.7rem 2rem;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  opacity: 0.9;
-  visibility: hidden;
 }
 
 .nav.open {
@@ -113,7 +38,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.7rem 2rem;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   opacity: 0.9;
   overflow: hidden;

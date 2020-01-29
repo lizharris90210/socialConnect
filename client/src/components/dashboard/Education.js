@@ -31,10 +31,10 @@ const Education = ({ education, deleteEducation }) => {
 
   return (
     <Fragment>
-      <h2 className="my-2">Education Credentials</h2>
+      <h2 className="my-2 h-responsive">Education Credentials</h2>
       <table className="table">
         <thead>
-          <tr>
+          <tr className="tableheader">
             <th>School</th>
             <th className="hide-sm">Degree</th>
             <th className="hide-sm">Years</th>
