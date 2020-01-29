@@ -7,12 +7,10 @@ import "../../css/nav.css";
 
 const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const menuBtnRef = React.createRef();
-  // console.log(menuBtnref);
   const hamburgerRef = React.createRef();
   const navRef = React.createRef();
   const menuNavRef = React.createRef();
-  let showMenu = false; //Menu is not shown
-  console.log(`showMenu initial: ${showMenu}`);
+  let showMenu = false;
 
   const authLinks = (
     <ul ref={menuNavRef} className="menu-nav">
@@ -52,9 +50,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   );
 
   const toggleMenu = () => {
-    console.log(`Fire ToggleMenu`)
     if(showMenu === false) {
-      console.log(`If triggered`);
       hamburgerRef.current.classList.add('open');
       navRef.current.classList.add('open');
       menuNavRef.current.classList.add('open');
@@ -63,9 +59,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
       navItems.forEach(item => item.classList.add('open'));
 
       showMenu = true;
-      console.log(`showMenu: ${showMenu}`);
     } else {
-      console.log(`Else triggered`);
       hamburgerRef.current.classList.remove('open');
       navRef.current.classList.remove('open');
       menuNavRef.current.classList.remove('open');
@@ -74,7 +68,6 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
       navItems.forEach(item => item.classList.remove('open'));
 
       showMenu = false;
-      console.log(`showMenu: ${showMenu}`);
     }
   }
   
