@@ -18,13 +18,25 @@ const Landing = ({ isAuthenticated }) => {
           <p className='lead-landing'>
             Create a profile and connect with fellow musicians
           </p>
-          <div className='buttons'>
-            <Link to='/register' className='btn btn-primary-home'>
-              REGISTER
-            </Link>
-            <Link to='/login' className='btn btn-light-home'>
-              LOGIN
-            </Link>
+          <div className='button-box'>
+            <div className="button-box__button register">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <Link to='/register'>
+                REGISTER
+              </Link>
+            </div>
+            <div className="button-box__button login">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <Link to='/login'>
+                LOGIN
+              </Link>
+            </div>
           </div>
         </div>
       </div>
