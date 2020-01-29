@@ -182,6 +182,7 @@ router.put(
 
     const {
       bandName,
+      title,
       genre,
       instruments,
       location,
@@ -193,6 +194,7 @@ router.put(
 
     const newExp = {
       bandName,
+      title,
       genre,
       instruments,
       location,

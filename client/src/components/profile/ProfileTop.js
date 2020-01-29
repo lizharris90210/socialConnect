@@ -5,6 +5,7 @@ const ProfileTop = ({
   profile: {
     status,
     bandName,
+    picURL,
     location,
     website,
     social,
@@ -17,6 +18,8 @@ const ProfileTop = ({
       <p className='lead'>
         {status} {bandName && <span> at {bandName}</span>}
       </p>
+       <img className='picURL' src={picURL}></img> 
+       <br></br>
       <p>{location && <span>{location}</span>}</p>
       <div className='icons my-1'>
         {website && (

@@ -36,8 +36,7 @@ router.post(
                     if (user){
                         return res.status(400).json({ errors: [{ msg: "User already exists" }] });
                     } else{
-                        const avatar = gravatar.url(email, {s: "200", r: "pg", d: "mm"});
-                        user = new User({name, email, avatar, password});
+                        user = new User({name, email, password});
 
                         //Encrypting Password
                         const salt = await bcrypt.genSalt(10);
