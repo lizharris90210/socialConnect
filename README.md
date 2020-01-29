@@ -51,5 +51,3 @@ A social media application using the MERN full-stack
 - [Hilary Lamb](https://github.com/hilarykathleen)
 
 This app is a project built for UNC Web Developer Bootcamp. Thanks to the teachers, TAs, tutors, and stackoverflow for the help and support. Special thanks to cheese and crackers.
-
-## Useage
